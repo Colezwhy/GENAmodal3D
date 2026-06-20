@@ -1,5 +1,5 @@
 <div align="center">
-<img src="assets/93cc350bee4c4e43f38c9a078acdde29.png" width="820" alt="Teaser GENA3D" />
+<img src="assets/93cc350bee4c4e43f38c9a078acdde29.png" width="680" alt="Teaser GENA3D" />
 <h2>GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence</h2>
 <p><b>ECCV 2026</b></p>
 <p>
