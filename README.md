@@ -1,6 +1,6 @@
 <div align="center">
 
-<h1>
+<h1 align="center" style="border-bottom:none;">
 GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence
 </h1>
 
