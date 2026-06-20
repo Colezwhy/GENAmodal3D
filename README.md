@@ -1,19 +1,13 @@
 <div align="center">
-
-<h1 align="center" style="border-bottom:none;">
-GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence
-</h1>
-
-<h2>ECCV 2026</h2>
-
+<h3>GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence</h3>
+<p><b>ECCV 2026</b></p>
+<p>
 <a href="https://colezwhy.github.io/" target="_blank">Junwei Zhou</a>,
 <a href="https://yuwingtai.github.io/" target="_blank">Yu-Wing Tai</a>
+</p>
+<p>Dartmouth College</p>
+</div>
 
-<br>
-
-Dartmouth College
-
-</div>      
 
 >**TL;DR**: <em>GENA3D bridges 2D amodal completion and 3D generative modeling to achieve amodal 3D objects generation from sparse and paritial-occluded observations.</em>
 
