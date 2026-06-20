@@ -38,8 +38,42 @@ https://github.com/user-attachments/assets/6f4b36e1-c50d-436a-9241-bd0e700c809e
 - 🔲 TODO: The code will soon be released. Please stay tuned!
 
 
+## Method 
+<p align="center">
+  <img src="assets/11fee07ae661ec3e0f6e4941ea41e31e.png" width="800" alt="Overall pipeline" />
+</p>
+
+<p align="center">
+  GENA3D bridges the 2D amodal completion with 3D generation using deliberaely designed View-Wise Cross Attention and Stereo-Conditioned Cross Attention in the Sparse Structure Generation Stage, with synthesized sparse-view 3D consistent occlusions as training data.
+</p>
+
+<p align="center">
+  <img src="assets/308b495e4ed18e608a635ee2861486bb.png" width="540" alt="Module design" />
+</p>
+
+<p align="center">
+  A detailed illustration of our proposed ViewWise Cross Attention and Stereo-Conditioned Cross Attention modules.
+</p>
+
+## Results
+<p align="center">
+  <img src="assets/4851b41a68ad377dfcef3a6ac9ad03a1.png" width="640" alt="Object-level" />
+</p>
+
+<p align="center">
+  Results on GSO object-level synthetic dataset.
+</p>
+
+<p align="center">
+  <img src="assets/d8797c493af58b11cb24b4fe7fa56e7e.png" width="640" alt="In-the-wild" />
+</p>
+
+<p align="center">
+  Results on in-the-wild real-world captures.
+</p>
+
 ## Citation
-Here is the bibtex reference. If you find our work interesting or useful, please give us a :star: or cite our paper.
+Here is the bibtex reference. If you find our work interesting or useful, please give us a :star: or cite our paper!
 ```
 @misc{zhou2026gena3dgenerativeamodal3d,
       title={GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence}, 
