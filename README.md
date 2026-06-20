@@ -1,5 +1,5 @@
 <div align="center">
-<h1>GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence</h1>
+<h2>GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence</h2>
 <p><b>ECCV 2026</b></p>
 <p>
 <a href="https://colezwhy.github.io/" target="_blank">Junwei Zhou</a>,
