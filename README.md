@@ -22,7 +22,7 @@ Dartmouth College
     <img src="https://img.shields.io/badge/Project-Website-green">
   </a>
   <a href="https://arxiv.org/abs/2511.21945">
-    <img src="https://img.shields.io/badge/arXiv-2511.21945-b31b1b.svg">
+    <img src="https://img.shields.io/badge/ECCV'26-paper-orange">
   </a>
     <a href="#">
     <img src="https://visitor-badge.laobi.icu/badge?page_id=Colezwhy.GENA3D" alt="Visitors">
