@@ -57,7 +57,7 @@ https://github.com/user-attachments/assets/6f4b36e1-c50d-436a-9241-bd0e700c809e
 
 ## Results
 <p align="center">
-  <img src="assets/4851b41a68ad377dfcef3a6ac9ad03a1.png" width="640" alt="Object-level" />
+  <img src="assets/4851b41a68ad377dfcef3a6ac9ad03a1.png" width="720" alt="Object-level" />
 </p>
 
 <p align="center">
@@ -65,7 +65,7 @@ https://github.com/user-attachments/assets/6f4b36e1-c50d-436a-9241-bd0e700c809e
 </p>
 
 <p align="center">
-  <img src="assets/d8797c493af58b11cb24b4fe7fa56e7e.png" width="640" alt="In-the-wild" />
+  <img src="assets/d8797c493af58b11cb24b4fe7fa56e7e.png" width="580" alt="In-the-wild" />
 </p>
 
 <p align="center">
