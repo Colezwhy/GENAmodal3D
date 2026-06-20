@@ -1,4 +1,5 @@
-# **ECCV 2026** GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence
+# GENA3D: Generative Amodal 3D Modeling by Bridging 2D Priors and 3D Coherence (ECCV 2026)
+
 
 <div align="center">
     <a href="https://colezwhy.github.io/" target="_blank">Junwei Zhou</a>,
