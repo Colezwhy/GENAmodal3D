@@ -1,0 +1,38 @@
+gpu_id: [0] # 0,1,2,3,
+
+exp_name: anyrec/train_ss
+
+model:
+  ckpt_path: null
+  type: ss
+
+train_dataset:
+    dataset_name: gena3d
+    data_root: your ABO dataset path
+    split: train
+    img_size: [512,512]
+
+test_dataset:
+    dataset_name: gena3d
+    data_root: your ABO dataset path
+    split: test
+    img_size: [512,512]
+
+train:
+    batch_size: 4
+    lr: 5e-5
+    beta1: 0.9
+    beta2: 0.95
+    weight_decay: 0.1
+    warmup_iters: 1000
+    n_epoch: 9
+    limit_train_batches: 1.0
+    limit_val_batches: 1.0
+    check_val_every_n_epoch: 1
+    use_rand_views: False
+test:
+    batch_size: 4
+
+logger: 
+    name: tensorboard
+    dir: logs/${exp_name}
