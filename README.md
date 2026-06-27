@@ -35,8 +35,55 @@ https://github.com/user-attachments/assets/6f4b36e1-c50d-436a-9241-bd0e700c809e
 ## Updates and TODOs
 - ✔️ 12/04/2025: Initialize the project page.
 - 🎊 06/18/2026: GENA3D is accepted to ECCV 2026.
-- 🔲 TODO: The code will soon be released. Please stay tuned!
+- ✔️ 06/27/2026: Inference code and pretrained weights released!
+- 🔲 TODO: Training code and training set construction.
 
+## Setup
+Thanks [Amodal3R](https://github.com/Sm0kyWu/Amodal3R) for providing the environment setup and follow exactly as their instruction in this work.
+
+Create a new conda environment named `gena3d` and install the dependencies:
+```sh
+. ./setup.sh --new-env --basic --xformers --flash-attn --diffoctreerast --spconv --mipgaussian --kaolin --nvdiffrast
+```
+The detailed usage of `setup.sh` can be found by running `. ./setup.sh --help`.
+```sh
+Usage: setup.sh [OPTIONS]
+Options:
+    -h, --help              Display this help message
+    --new-env               Create a new conda environment
+    --basic                 Install basic dependencies
+    --train                 Install training dependencies
+    --xformers              Install xformers
+    --flash-attn            Install flash-attn
+    --diffoctreerast        Install diffoctreerast
+    --vox2seq               Install vox2seq
+    --spconv                Install spconv
+    --mipgaussian           Install mip-splatting
+    --kaolin                Install kaolin
+    --nvdiffrast            Install nvdiffrast
+    --demo                  Install all dependencies for demo
+```
+
+## Pretrained models
+We have provided our pretrained weights on [HuggingFace](https://huggingface.co/Colezwhy/GENA3D).
+
+## Inference
+We have prepared demos under ./examples folder, supporting both single-view and sparse-view demos, you can run:
+```sh
+python inference_gena3d.py                      # no arg -> uses examples/demo1
+python inference_gena3d.py --input examples/demo4   # single view demo
+python inference_gena3d.py --input examples/demo3   # sparse view demo
+```
+
+If you want to try out on your own exampels:
+
+First of all, we need to get the 2D completion methods using exisitng 2D frontends. We recommend [OAAD](https://github.com/saraao/amodal) for the same setting as in our paper. Also you can try out any other 2D amodal completion frontends. Apply it to all views of your case and compose them just as the structure shown in the demos.
+
+Please check out the file formats needed for inference in demos. Basically we need amodal_completion.png (object after 2D amodal completion), occ_mask0.png (occlusion mask for SLAT generation), sd_img_cut.png (original occluded object image), visibility_instance_mask.png (visibilty mask, can be generated through sd_img_cut).
+
+
+## Training & Data Preparation
+Coming soon...
 
 ## Method 
 <p align="center">
